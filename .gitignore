@@ -1,0 +1,12 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings (optional)
+.vscode/
+
+# Logs (rare for static sites, but safe)
+*.log
+
+# Dependencies (only if you ever add npm later)
+node_modules/
