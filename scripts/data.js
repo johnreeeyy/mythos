@@ -59,5 +59,47 @@ const gods = [
     mythology: "Greek Mythology",
     description: `Aphrodite is the ancient Greek goddess of love, beauty, passion, and procreation. Recognized as one of the Twelve Olympians on Mount Olympus, she captivated both mortals and gods with her beauty and was famous for her
     irresistible charm.`
+  },
+
+  {
+    name: "Odin",
+    image: "images/Odin.jpg",
+    mythology: "Norse Mythology",
+    description: `Odin is the supreme, all-father god in Norse mythology, revered for his wisdom, healing, royalty, and magic. He rules Asgard, gathers fallen warriors in Valhalla, and is famous for sacrificing his eye for wisdom and hanging from the World Tree to learn the runes.`
+  },
+
+  {
+    name: "Thor",
+    image: "images/Thor.webp",
+    mythology: "Norse Mythology",
+    description: `Thor is the mighty, red-bearded god of thunder, storms, and strength. As the son of Odin and the earth goddess Jörð, he was the ultimate defender of Asgard (the realm of the gods) and Midgard (the human world) against giants and monsters.`
+  },
+
+  {
+    name: "Loki",
+    image: "images/Loki.jpg",
+    mythology: "Norse Mythology",
+    description: `Loki is the infamous trickster god of Norse mythology. A complex shape-shifter born to a giant, he served as both a crucial ally to the Aesir gods—frequently assisting Thor and Odin—and an architect of absolute chaos. Ultimately, his malicious pranks and fateful betrayal led to the apocalypse.`
+  },
+
+  {
+    name: "Baldur",
+    image: "images/Baldur.webp",
+    mythology: "Norse Mythology",
+    description: `Baldur (or Balder) is the Norse god of light, joy, and beauty. Often considered the fairest and most beloved of the Æsir gods, he is the son of Odin and Frigg. His tragic death and the ensuing events are among the most famous tales in Norse mythology.`
+  },
+
+  {
+    name: "Heimdall",
+    image: "images/Heimdall.webp",
+    mythology: "Norse Mythology",
+    description: `Heimdall is the vigilant watchman of the gods. Known as the "shining god" and "whitest of the gods," he guards the realm of Asgard from his fortress, Himinbjörg, located at the edge of the rainbow bridge, Bifröst. He is famed for his superhuman senses and fated duel with Loki.`
+  },
+
+  {
+    name: "Týr",
+    image: "images/Tyr.jpg",
+    mythology: "Norse Mythology",
+    description: `Týr is a prominent Norse god of war, law, and justice, often revered for his immense bravery and integrity. Known as the one-handed god, he famously sacrificed his right hand to the wolf Fenrir to uphold an oath, ensuring the safety of the gods. Though later overshadowed by Odin and Thor, he was once a supreme deity.`
   }
 ];
