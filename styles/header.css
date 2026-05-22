@@ -19,6 +19,12 @@ header h1 {
   color: gold;
 }
 
+@media (max-width: 400px) {
+  header h1 {
+    display: none;
+  }
+}
+
 header img {
   width: 55px;
   height: 55px;
