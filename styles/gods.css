@@ -89,10 +89,11 @@
   border-radius: 8px;
 }
 
-.norse {
-  background: green;
+.greek {
+  background: rgb(212, 175, 55);
+  color: black;
 }
 
-.greek {
-  background: rgb(69, 97, 120);
+.norse {
+  background: rgb(70, 89, 102);
 }
