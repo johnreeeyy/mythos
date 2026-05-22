@@ -82,9 +82,17 @@
 
 .mythology-tag {
   background-color: rgb(245, 231, 234);
-  color: black;
+  color: white;
   padding: 4px 10px;
   font-size: 0.8rem;
   font-weight: bold;
   border-radius: 8px;
+}
+
+.norse {
+  background: green;
+}
+
+.greek {
+  background: rgb(69, 97, 120);
 }

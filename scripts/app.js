@@ -22,6 +22,8 @@ searchBar.addEventListener("input", () => {
 const godsContainer = document.querySelector(".gods-container");
 
 gods.forEach((god) => {
+  const mythologyClass = god.mythology.toLowerCase();
+
   const card = document.createElement("div");
   card.classList.add("gods-card");
 
@@ -30,12 +32,15 @@ gods.forEach((god) => {
 
     <div class="gods-identity">
       <h2 class="gods-name">${god.name}</h2>
-      <span class="mythology-tag">${god.mythology}</span>
+      <span class="mythology-tag ${mythologyClass}">
+      ${god.mythology} Mythology
+      </span>
     </div>
 
     <p>${god.description}</p>
-
   `;
 
   godsContainer.appendChild(card);
 });
+
+// change tag color based on mythology
