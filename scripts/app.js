@@ -54,8 +54,17 @@ filterButtons.forEach((button) => {
   button.addEventListener("click", () => {
     mythologyFilter = button.textContent.trim().toLowerCase();
     applyFilters();
+
+    filterButtons.forEach((button) => button.classList.remove("active"));
+
+    // don't activate "All"
+    if (button.textContent !== "All") {
+      button.classList.add("active");
+    }
   });
 });
+
+// remove active from all buttons
 
 // filter both search + buttons
 

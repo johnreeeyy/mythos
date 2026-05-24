@@ -48,9 +48,17 @@ header h1 {
 }
 
 .filter-buttons button:hover {
-  transform: translateY(3px) translateX(-3px);
+  transform: translateY(-3px);
 
   box-shadow: -5px 10px 25px rgba(255, 215, 0, 0.3);
+}
+
+.filter-buttons button.active {
+  transform: translateY(-3px);
+
+  box-shadow: -5px 10px 25px rgba(255, 215, 0, 0.3);
+
+  text-decoration: underline;
 }
 
 @media (max-width: 400px) {
