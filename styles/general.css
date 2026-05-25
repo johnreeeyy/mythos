@@ -28,3 +28,31 @@ body::before {
 
   z-index: 0;
 }
+
+/* Scrollbar width */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Scrollbar track (background) */
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: black;
+  border-radius: 10px;
+}
+
+/* Scrollbar thumb (draggable part) */
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgb(255, 215, 0), rgb(184, 134, 11));
+
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+/* Hover effect */
+html::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgb(255, 230, 120), rgb(212, 175, 55));
+}

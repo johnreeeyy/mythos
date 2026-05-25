@@ -8,10 +8,18 @@ let mythologyFilter = "all";
 const searchBar = document.querySelector(".searchbar");
 const filterButtons = document.querySelectorAll(".filter-buttons button");
 const godsContainer = document.querySelector(".gods-container");
+const modalOverlay = document.querySelector(".modal-overlay");
+const modal = document.querySelector(".modal");
+const closeBtn = document.querySelector(".close-button");
+const domainList = modal.querySelector(".god-domain ul");
+const symbolList = modal.querySelector(".god-symbol ul");
+const modalImg = document.querySelector(".modal .left-content img");
 
 // render cards dynamically
 
 function renderGods() {
+  godsContainer.innerHTML = "";
+
   gods.forEach((god) => {
     const mythologyClass = god.mythology.toLowerCase();
 
@@ -34,8 +42,20 @@ function renderGods() {
     `;
 
     godsContainer.appendChild(card);
+
+    card.addEventListener("click", () => {
+      openModal(god);
+    });
   });
 }
+
+closeBtn.addEventListener("click", closeModal);
+
+modalOverlay.addEventListener("click", closeModal);
+
+modal.addEventListener("click", (e) => {
+  e.stopPropagation();
+});
 
 document.addEventListener("DOMContentLoaded", () => {
   renderGods();
@@ -63,7 +83,6 @@ filterButtons.forEach((button) => {
   });
 });
 
-
 // filter both search + buttons
 
 function applyFilters() {
@@ -83,4 +102,32 @@ function applyFilters() {
       card.style.display = "none";
     }
   });
+}
+
+// open modal
+
+function openModal(god) {
+  modal.querySelector("h1").textContent = god.name;
+
+  modalImg.src = god.image;
+
+  domainList.innerHTML = god.domain.map((d) => `<li>${d}</li>`).join("");
+
+  symbolList.innerHTML = god.symbols.map((s) => `<li>${s}</li>`).join("");
+
+  modal.querySelector(".god-trivia p").textContent = god.trivia;
+  modal.querySelector(".god-lore p").textContent = god.lore;
+
+  modalOverlay.classList.add("active");
+
+  modal.scrollTop = 0;
+
+  // optional: prevent background scroll
+  document.body.style.overflow = "hidden";
+}
+
+// close modal
+function closeModal() {
+  modalOverlay.classList.remove("active");
+  document.body.style.overflow = "auto";
 }
