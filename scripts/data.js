@@ -74,9 +74,9 @@ const gods = [
 
     symbols: ["Peacock", "Crown", "Scepter", "Cow"],
 
-    trivia: `Hera is known for her jealousy toward Zeus’s lovers. The peacock is her sacred animal. She is a protector of marriage traditions.`,
+    trivia: `Hera is known for her jealousy toward Zeus's lovers. The peacock is her sacred animal. She is a protector of marriage traditions.`,
 
-    lore: `Hera is the queen of the gods and wife of Zeus in Greek mythology. She represents marriage, family, and women. She is often portrayed as proud and regal in appearance. Her marriage to Zeus is marked by repeated conflicts. She frequently punishes Zeus’s lovers and their children. Despite this, she is a powerful and respected Olympian goddess. She plays important roles in several mythological events including the Trojan War. Hera symbolizes loyalty, dignity, and the complexities of marriage.`
+    lore: `Hera is the queen of the gods and wife of Zeus in Greek mythology. She represents marriage, family, and women. She is often portrayed as proud and regal in appearance. Her marriage to Zeus is marked by repeated conflicts. She frequently punishes Zeus's lovers and their children. Despite this, she is a powerful and respected Olympian goddess. She plays important roles in several mythological events including the Trojan War. Hera symbolizes loyalty, dignity, and the complexities of marriage.`
   },
 
   {
@@ -181,7 +181,7 @@ const gods = [
 
     trivia: `Baldr is loved by all gods. His death is caused by mistletoe. He is expected to return after Ragnarok.`,
 
-    lore: `Baldur is the god of light and beauty in Norse mythology. He is beloved by all gods for his kindness. His mother Frigg made everything swear not to harm him except mistletoe. Loki tricked his blind brother into killing him. His death marks the beginning of Ragnarok’s chain of events. The gods fail to bring him back from the dead. He remains in the underworld until after Ragnarok. Baldur represents innocence, purity, and tragic fate.`
+    lore: `Baldur is the god of light and beauty in Norse mythology. He is beloved by all gods for his kindness. His mother Frigg made everything swear not to harm him except mistletoe. Loki tricked his blind brother into killing him. His death marks the beginning of Ragnarok's chain of events. The gods fail to bring him back from the dead. He remains in the underworld until after Ragnarok. Baldur represents innocence, purity, and tragic fate.`
   },
 
   {
@@ -211,6 +211,6 @@ const gods = [
 
     trivia: `Tyr lost his hand to Fenrir. He represents justice and honor. Tuesday is named after him.`,
 
-    lore: `Týr is a god of war and justice in Norse mythology. He is known for bravery and honor. He placed his hand in Fenrir’s mouth as a guarantee. The wolf bit off his hand when deceived. His sacrifice allowed the gods to bind Fenrir. He represents lawful warfare and justice. He is one of the oldest Norse gods. Týr symbolizes courage and duty.`
+    lore: `Týr is a god of war and justice in Norse mythology. He is known for bravery and honor. He placed his hand in Fenrir's mouth as a guarantee. The wolf bit off his hand when deceived. His sacrifice allowed the gods to bind Fenrir. He represents lawful warfare and justice. He is one of the oldest Norse gods. Týr symbolizes courage and duty.`
   }
 ];
