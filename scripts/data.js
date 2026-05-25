@@ -3,7 +3,7 @@ const gods = [
     name: "Zeus",
     image: "images/Zeus.webp",
     mythology: "Greek",
-    description: `Zeus is the supreme deity in ancient Greek mythology, ruling as the King of the Gods, lord of the sky, thunder, and justice. As the ruler of Mount Olympus, he maintains order, law, and fate. He is typically depicted as a mature, robust man with a beard, wielding a thunderbolt and accompanied by an eagle.`,
+    description: `Zeus is the supreme god in Greek mythology and ruler of Mount Olympus. He governs the sky, thunder, and justice, maintaining order among gods and mortals. He is typically depicted as a powerful bearded figure wielding a thunderbolt.`,
 
     domain: ["Sky", "Thunder", "Lightning", "Kingship and authority"],
 
@@ -186,7 +186,7 @@ const gods = [
 
   {
     name: "Heimdall",
-    image: "images/Heimdall.webp",
+    image: "images/Heimdall.jpg",
     mythology: "Norse",
     description: `Heimdall is the watchman of the Norse gods, guarding the rainbow bridge Bifröst. He is known for his sharp senses and vigilance.`,
 
