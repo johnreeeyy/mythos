@@ -3,7 +3,7 @@ const gods = [
     name: "Zeus",
     image: "images/Zeus.webp",
     mythology: "Greek",
-    description: `Zeus is the supreme god in Greek mythology and ruler of Mount Olympus. He governs the sky, thunder, and justice, maintaining order among gods and mortals. He is typically depicted as a powerful bearded figure wielding a thunderbolt.`,
+    description: `Zeus is one of the twelve Olympian gods in Greek mythology and ruler of Mount Olympus. He governs the sky, thunder, lightning, and justice, and is often depicted holding a thunderbolt as a symbol of his power.`,
 
     domain: ["Sky", "Thunder", "Lightning", "Kingship and authority"],
 
