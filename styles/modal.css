@@ -138,7 +138,7 @@ section {
 }
 
 /* MOBILE */
-@media (max-width: 768px) {
+@media (max-width: 685px) {
   .modal {
     width: 95vw;
     height: 50vh;
