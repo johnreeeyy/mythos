@@ -11,7 +11,7 @@
 
   background-color: rgba(0, 0, 0, 0.4);
 
-  z-index: 1000;
+  z-index: 2000;
 }
 
 .modal-overlay.active {
@@ -141,7 +141,7 @@ section {
 @media (max-width: 685px) {
   .modal {
     width: 95vw;
-    height: 50vh;
+    height: 90vh;
 
     border-radius: 10px;
   }

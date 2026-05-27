@@ -89,6 +89,20 @@
   border-radius: 8px;
 }
 
+.favorite-button {
+  border: none;
+  background: transparent;
+  font-size: 24px;
+  cursor: pointer;
+  color: gold;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .greek {
   background: rgb(212, 175, 55);
   color: black;

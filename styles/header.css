@@ -108,3 +108,18 @@ header img {
   color: rgb(245, 231, 234);
   opacity: 1;
 }
+
+.favorites-toggle {
+  border: 1px solid gold;
+  background: transparent;
+  color: gold;
+  padding: 2px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.favorites-toggle.active {
+  background: gold;
+  color: black;
+}
